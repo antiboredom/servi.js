@@ -3,7 +3,7 @@
   "description": "A simple library for serving web pages",
   "homepage": "http://github.com/antiboredom/servi.js",
   "version": "0.0.1",
-  "devDependencies": {
+  "dependencies": {
     "cookies": "0.4.0",
     "ejs": "1.0.0",
     "formidable": "1.0.14",
