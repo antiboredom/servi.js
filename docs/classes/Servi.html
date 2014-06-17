@@ -58,6 +58,10 @@
             
                 <li><a href="#methods_port">port</a></li>
             
+                <li><a href="#methods_redirect">redirect</a></li>
+            
+                <li><a href="#methods_respond">respond</a></li>
+            
                 <li><a href="#methods_route">route</a></li>
             
                 <li><a href="#methods_serveFiles">serveFiles</a></li>
@@ -83,7 +87,7 @@
         <h2 class="no-toc">Files</h2>
     </div>
     <div class="bd">
-        <ul><li>lib/<ul><li><a href="../files/lib_servi.js.html">servi.js</a></li></ul></li></ul>
+        <ul><li>lib/<ul><li><a href="../files/lib_response.js.html">response.js</a></li><li><a href="../files/lib_servi.js.html">servi.js</a></li></ul></li></ul>
     </div>
 </div>
 
@@ -232,6 +236,78 @@ serviapp.log(&quot;something to say&quot;);</code></pre>
         <pre class="code prettyprint"><code>var servi = require(&#39;servi&#39;);
 var serviapp = new servi();
 serviapp.port(8080);</code></pre>
+
+    
+</div>
+
+            
+                <a name="methods_redirect"></a>
+<div class="method item">
+     <strong class="name"><code>redirect</code></strong>( <code>response </code> ) 
+    <br>
+    <span class="foundat">
+    
+        
+    
+        <a href="../../files/lib_response.js.html#l111"><code>lib&#x2F;response.js:111</code></a>
+    </span><br>
+    <p>Set port number to run server on</p>
+
+    
+    <strong>Parameters:</strong>
+    <ul class="params">
+    
+        <li>
+        
+            <code>response</code> <strong>&lt;String&gt;</strong>
+        
+        
+         
+            
+        </li>
+    
+    </ul>
+    
+    
+    
+        <h5>Example</h5>
+        <pre class="code prettyprint"><code>request.redirect(&quot;/&quot;);    </code></pre>
+
+    
+</div>
+
+            
+                <a name="methods_respond"></a>
+<div class="method item">
+     <strong class="name"><code>respond</code></strong>( <code>response </code> ) 
+    <br>
+    <span class="foundat">
+    
+        
+    
+        <a href="../../files/lib_response.js.html#l65"><code>lib&#x2F;response.js:65</code></a>
+    </span><br>
+    <p>Set port number to run server on</p>
+
+    
+    <strong>Parameters:</strong>
+    <ul class="params">
+    
+        <li>
+        
+            <code>response</code> <strong>&lt;String&gt;</strong>
+        
+        
+         
+            
+        </li>
+    
+    </ul>
+    
+    
+    
+        <h5>Example</h5>
+        <pre class="code prettyprint"><code>request.respond(&quot;Thanks&quot;);    </code></pre>
 
     
 </div>

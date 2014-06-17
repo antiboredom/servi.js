@@ -1,6 +1,13 @@
 {
     "project": {},
     "files": {
+        "lib/response.js": {
+            "name": "lib/response.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
         "lib/servi.js": {
             "name": "lib/servi.js",
             "modules": {},
@@ -38,6 +45,42 @@
         }
     },
     "classitems": [
+        {
+            "file": "lib/response.js",
+            "line": 65,
+            "description": "Set port number to run server on",
+            "itemtype": "method",
+            "name": "respond",
+            "params": [
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "example": [
+                "\n\trequest.respond(\"Thanks\");\t"
+            ],
+            "class": "Servi"
+        },
+        {
+            "file": "lib/response.js",
+            "line": 111,
+            "description": "Set port number to run server on",
+            "itemtype": "method",
+            "name": "redirect",
+            "params": [
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "example": [
+                "\n\trequest.redirect(\"/\");\t"
+            ],
+            "class": "Servi"
+        },
         {
             "file": "lib/servi.js",
             "line": 57,
