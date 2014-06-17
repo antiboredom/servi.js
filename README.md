@@ -18,7 +18,9 @@ var app = new servi(true);
 
 port(8080);
 
-function run(request) {
+route('/', requestHandler);
+
+function requestHandler(request) {
     request.respond("Hello World");
 }
 
