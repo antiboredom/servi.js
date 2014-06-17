@@ -12,7 +12,7 @@ Getting Started
 2: npm install servi.js
 
 3: Create a simple server 
-
+```javascript
 var servi = require('servi');
 var app = new servi(true);
 
@@ -23,5 +23,5 @@ function run(request) {
 }
 
 start();
-
+```
 4: node servi.js
