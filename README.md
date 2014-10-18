@@ -9,7 +9,7 @@ Getting Started
 ========
 1: Install node.js
 
-2: npm install servi.js
+2: npm install servi
 
 3: Create a simple server 
 ```javascript
